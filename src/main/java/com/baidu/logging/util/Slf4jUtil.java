@@ -1,12 +1,11 @@
 package com.baidu.logging.util;
 
-import com.baidu.logging.test.Slf4jTest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public final class Slf4jUtil {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(Slf4jTest.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(Slf4jUtil.class);
 
     public static void info(String msg){
         LOGGER.info(msg);
